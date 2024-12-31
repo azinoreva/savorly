@@ -1,0 +1,151 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:1881870326788372255",
+      "lastPropertyId": "3:8941660027191120391",
+      "name": "Ingredient",
+      "properties": [
+        {
+          "id": "1:908066957328339133",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3687220775271418096",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:8941660027191120391",
+          "name": "quantity",
+          "type": 6
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:6794784933150230372",
+          "name": "meals",
+          "targetId": "2:2650348659210546063"
+        }
+      ]
+    },
+    {
+      "id": "2:2650348659210546063",
+      "lastPropertyId": "7:2769855897467571440",
+      "name": "Meal",
+      "properties": [
+        {
+          "id": "1:314928986065297804",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3525601501839378941",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:7149589744664449938",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "4:5178370810884053064",
+          "name": "imageUrl",
+          "type": 9
+        },
+        {
+          "id": "5:2296717094035326456",
+          "name": "videoUrl",
+          "type": 9
+        },
+        {
+          "id": "6:3105791472649262579",
+          "name": "mealType",
+          "type": 9
+        },
+        {
+          "id": "7:2769855897467571440",
+          "name": "validatedMealType",
+          "type": 9
+        }
+      ],
+      "relations": [
+        {
+          "id": "2:1742618606704457679",
+          "name": "preparationSteps",
+          "targetId": "4:5404674523021644846"
+        }
+      ]
+    },
+    {
+      "id": "3:2473740120456123453",
+      "lastPropertyId": "4:7282952469903224498",
+      "name": "MealPlan",
+      "properties": [
+        {
+          "id": "1:5399871741228713578",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3284851822820914795",
+          "name": "day",
+          "type": 9
+        },
+        {
+          "id": "3:7282505448907977954",
+          "name": "mealType",
+          "type": 9
+        },
+        {
+          "id": "4:7282952469903224498",
+          "name": "mealName",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:5404674523021644846",
+      "lastPropertyId": "3:1812028686187133569",
+      "name": "PreparationStep",
+      "properties": [
+        {
+          "id": "1:6537908786284618959",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:5527052869719243596",
+          "name": "stepNumber",
+          "type": 6
+        },
+        {
+          "id": "3:1812028686187133569",
+          "name": "instruction",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "4:5404674523021644846",
+  "lastIndexId": "0:0",
+  "lastRelationId": "2:1742618606704457679",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
