@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/CMakeFiles/objectbox-download-populate"
+		},
+		{
+			"file" : "C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/CMakeFiles/285a3f9d14cf06ce51885a383eb5578a/objectbox-download-populate.rule"
+		},
+		{
+			"file" : "C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/CMakeFiles/e2920bece116d82210b1f68c340dfdce/objectbox-download-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/CMakeFiles/b5f38c02919b566a09c6b1702952e1bc/objectbox-download-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/CMakeFiles/b5f38c02919b566a09c6b1702952e1bc/objectbox-download-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/CMakeFiles/b5f38c02919b566a09c6b1702952e1bc/objectbox-download-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/CMakeFiles/b5f38c02919b566a09c6b1702952e1bc/objectbox-download-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/CMakeFiles/b5f38c02919b566a09c6b1702952e1bc/objectbox-download-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/CMakeFiles/b5f38c02919b566a09c6b1702952e1bc/objectbox-download-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/CMakeFiles/b5f38c02919b566a09c6b1702952e1bc/objectbox-download-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/CMakeFiles/b5f38c02919b566a09c6b1702952e1bc/objectbox-download-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"objectbox-download-populate"
+		],
+		"name" : "objectbox-download-populate"
+	}
+}

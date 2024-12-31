@@ -1,0 +1,10 @@
+^C:\USERS\AZINO\DESKTOP\SAVORLY\SAVORLY\BUILD\WINDOWS\X64\CMAKEFILES\E1E832D79662922E01CCFEC09EFC3FF1\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

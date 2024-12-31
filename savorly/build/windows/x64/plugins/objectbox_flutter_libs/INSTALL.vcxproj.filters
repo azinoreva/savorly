@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\azino\Desktop\savorly\savorly\build\windows\x64\CMakeFiles\5f29ac1d0633187823ae426404e50d2c\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A78EF5C2-D707-3C9E-AE69-A472F31695DF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

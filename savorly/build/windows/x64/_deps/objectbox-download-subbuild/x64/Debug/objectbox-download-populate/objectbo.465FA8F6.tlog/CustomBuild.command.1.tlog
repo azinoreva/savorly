@@ -1,0 +1,152 @@
+^C:\USERS\AZINO\DESKTOP\SAVORLY\SAVORLY\BUILD\WINDOWS\X64\_DEPS\OBJECTBOX-DOWNLOAD-SUBBUILD\CMAKEFILES\B5F38C02919B566A09C6B1702952E1BC\OBJECTBOX-DOWNLOAD-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/objectbox-download-populate-prefix/tmp/objectbox-download-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/objectbox-download-populate-prefix/src/objectbox-download-populate-stamp/Debug/objectbox-download-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AZINO\DESKTOP\SAVORLY\SAVORLY\BUILD\WINDOWS\X64\_DEPS\OBJECTBOX-DOWNLOAD-SUBBUILD\CMAKEFILES\B5F38C02919B566A09C6B1702952E1BC\OBJECTBOX-DOWNLOAD-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\azino\Desktop\savorly\savorly\build\windows\x64\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/objectbox-download-populate-prefix/src/objectbox-download-populate-stamp/download-objectbox-download-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/objectbox-download-populate-prefix/src/objectbox-download-populate-stamp/verify-objectbox-download-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/objectbox-download-populate-prefix/src/objectbox-download-populate-stamp/extract-objectbox-download-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/objectbox-download-populate-prefix/src/objectbox-download-populate-stamp/Debug/objectbox-download-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AZINO\DESKTOP\SAVORLY\SAVORLY\BUILD\WINDOWS\X64\_DEPS\OBJECTBOX-DOWNLOAD-SUBBUILD\CMAKEFILES\B5F38C02919B566A09C6B1702952E1BC\OBJECTBOX-DOWNLOAD-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/objectbox-download-populate-prefix/src/objectbox-download-populate-stamp/Debug/objectbox-download-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AZINO\DESKTOP\SAVORLY\SAVORLY\BUILD\WINDOWS\X64\_DEPS\OBJECTBOX-DOWNLOAD-SUBBUILD\CMAKEFILES\B5F38C02919B566A09C6B1702952E1BC\OBJECTBOX-DOWNLOAD-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/objectbox-download-populate-prefix/src/objectbox-download-populate-stamp/Debug/objectbox-download-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AZINO\DESKTOP\SAVORLY\SAVORLY\BUILD\WINDOWS\X64\_DEPS\OBJECTBOX-DOWNLOAD-SUBBUILD\CMAKEFILES\B5F38C02919B566A09C6B1702952E1BC\OBJECTBOX-DOWNLOAD-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\azino\Desktop\savorly\savorly\build\windows\x64\_deps\objectbox-download-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/objectbox-download-populate-prefix/src/objectbox-download-populate-stamp/Debug/objectbox-download-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AZINO\DESKTOP\SAVORLY\SAVORLY\BUILD\WINDOWS\X64\_DEPS\OBJECTBOX-DOWNLOAD-SUBBUILD\CMAKEFILES\B5F38C02919B566A09C6B1702952E1BC\OBJECTBOX-DOWNLOAD-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\azino\Desktop\savorly\savorly\build\windows\x64\_deps\objectbox-download-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/objectbox-download-populate-prefix/src/objectbox-download-populate-stamp/Debug/objectbox-download-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AZINO\DESKTOP\SAVORLY\SAVORLY\BUILD\WINDOWS\X64\_DEPS\OBJECTBOX-DOWNLOAD-SUBBUILD\CMAKEFILES\B5F38C02919B566A09C6B1702952E1BC\OBJECTBOX-DOWNLOAD-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\azino\Desktop\savorly\savorly\build\windows\x64\_deps\objectbox-download-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/objectbox-download-populate-prefix/src/objectbox-download-populate-stamp/Debug/objectbox-download-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AZINO\DESKTOP\SAVORLY\SAVORLY\BUILD\WINDOWS\X64\_DEPS\OBJECTBOX-DOWNLOAD-SUBBUILD\CMAKEFILES\B5F38C02919B566A09C6B1702952E1BC\OBJECTBOX-DOWNLOAD-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\azino\Desktop\savorly\savorly\build\windows\x64\_deps\objectbox-download-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/objectbox-download-populate-prefix/src/objectbox-download-populate-stamp/Debug/objectbox-download-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AZINO\DESKTOP\SAVORLY\SAVORLY\BUILD\WINDOWS\X64\_DEPS\OBJECTBOX-DOWNLOAD-SUBBUILD\CMAKEFILES\E2920BECE116D82210B1F68C340DFDCE\OBJECTBOX-DOWNLOAD-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/CMakeFiles/Debug/objectbox-download-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/objectbox-download-populate-prefix/src/objectbox-download-populate-stamp/Debug/objectbox-download-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AZINO\DESKTOP\SAVORLY\SAVORLY\BUILD\WINDOWS\X64\_DEPS\OBJECTBOX-DOWNLOAD-SUBBUILD\CMAKEFILES\285A3F9D14CF06CE51885A383EB5578A\OBJECTBOX-DOWNLOAD-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AZINO\DESKTOP\SAVORLY\SAVORLY\BUILD\WINDOWS\X64\_DEPS\OBJECTBOX-DOWNLOAD-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild -BC:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild --check-stamp-file C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/_deps/objectbox-download-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

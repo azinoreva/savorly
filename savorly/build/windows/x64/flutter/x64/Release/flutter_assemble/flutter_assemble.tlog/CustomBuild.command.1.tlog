@@ -1,0 +1,28 @@
+^C:\USERS\AZINO\DESKTOP\SAVORLY\SAVORLY\BUILD\WINDOWS\X64\CMAKEFILES\7C5FE07F76E4C9BD6994DF6050F7D3C5\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env "FLUTTER_ROOT=C:\Program Files\flutter" PROJECT_DIR=C:\Users\azino\Desktop\savorly\savorly "FLUTTER_ROOT=C:\Program Files\flutter" FLUTTER_EPHEMERAL_DIR=C:\Users\azino\Desktop\savorly\savorly\windows\flutter\ephemeral PROJECT_DIR=C:\Users\azino\Desktop\savorly\savorly FLUTTER_TARGET=lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=true PACKAGE_CONFIG=C:\Users\azino\Desktop\savorly\savorly\.dart_tool\package_config.json "C:/Program Files/flutter/packages/flutter_tools/bin/tool_backend.bat" windows-x64 Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AZINO\DESKTOP\SAVORLY\SAVORLY\BUILD\WINDOWS\X64\CMAKEFILES\7DA1DB54F277DE586662A0746ECB9CDB\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AZINO\DESKTOP\SAVORLY\SAVORLY\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/azino/Desktop/savorly/savorly/windows -BC:/Users/azino/Desktop/savorly/savorly/build/windows/x64 --check-stamp-file C:/Users/azino/Desktop/savorly/savorly/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

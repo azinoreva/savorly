@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\azino\Desktop\savorly\savorly\build\windows\x64\_deps\objectbox-download-subbuild\CMakeFiles\285a3f9d14cf06ce51885a383eb5578a\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{74A2CE6F-5847-330A-92AE-F0311BB6D987}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
