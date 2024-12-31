@@ -2,6 +2,9 @@
 
 A kitchen tool
 
+#Usage 
+Download the content of release: https://github.com/azinoreva/savorly/tree/main/savorly/build/windows/x64/runner/Release
+Paste in any location and create a shortcut. Voila! 
 ## Further Info. 
 
 This project is an app that aids a nutritionist or a cook at home store healthy meals and can pass it on 
