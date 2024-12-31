@@ -1,16 +1,11 @@
 # savorly
 
-A new Flutter project.
+A kitchen tool
 
-## Getting Started
+## Further Info. 
 
-This project is a starting point for a Flutter application.
+This project is an app that aids a nutritionist or a cook at home store healthy meals and can pass it on 
+to users or others at home. For more information, or collaboration to modify and beautify the app for commercial use, send a whatsapp message to +234 905 482 1617
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
